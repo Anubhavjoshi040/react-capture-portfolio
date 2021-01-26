@@ -1,9 +1,10 @@
 import React from 'react';
+import { About } from "../styles";
 
 
 const FaqSection = () => {
     return (
-        <div className="faq">
+        <About>
             <h2>Any Questions <span>FAQ</span></h2>
             <div className="question">
                 <h4>How Do I Start?</h4>
@@ -33,7 +34,7 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eaque.</p>
                 </div>
             </div>
-        </div>
+        </About>
     )
 };
 
