@@ -9,7 +9,7 @@ import Nav from './components/Nav';
 import MovieDetail from './pages/MovieDetail';
 //Router
 import { Switch, Route, useLocation } from 'react-router-dom';
-import { About } from './styles';
+//import { About } from './styles';
 //Animations
 import { AnimatePresence } from "framer-motion";
 
